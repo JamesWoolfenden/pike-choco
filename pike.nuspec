@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pike</id>
+    <version>0.0.1</version>
+    <packageSourceUrl>https://github.com/jameswoolfenden/pike-choco</packageSourceUrl>
+    <owners>James Woolfenden</owners>
+    <title>pike</title>
+    <authors>James Woolfenden</authors>
+    <projectUrl>https://github.com/jameswoolfenden/pike</projectUrl>
+    <copyright>2022 Bridgecrew</copyright>
+   <projectSourceUrl>https://github.com/jameswoolfenden/pike</projectSourceUrl>
+    <docsUrl>https://github.com/jameswoolfenden/pike</docsUrl>
+    <tags>devops cloud cloudformation serverless terraform iam iac infrastructure-as-code cloudsecurity pike</tags>
+    <summary>Policy Maker for your IaC files</summary>
+    <description>Iam Policy maker for your IaC files. The smart way to generate IAM permmission policies.</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
