@@ -5,7 +5,7 @@
     <id>pike</id>
     <version>0.0.1</version>
     <packageSourceUrl>https://github.com/jameswoolfenden/pike-choco</packageSourceUrl>
-    <owners>James Woolfenden</owners>
+    <owners>jwoolfenden</owners>
     <title>pike</title>
     <authors>James Woolfenden</authors>
     <projectUrl>https://github.com/jameswoolfenden/pike</projectUrl>
